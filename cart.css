@@ -1,0 +1,16 @@
+.all{
+    padding-left: 500px;
+    padding-right: 500px; 
+}
+.all div{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.muasam{
+    width: 185px;
+    height: 45px;
+}
+.muasam:hover{
+    background-color: rgb(255, 104, 104);
+    color: white;
+}

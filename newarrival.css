@@ -1,0 +1,40 @@
+.doan1{
+    margin-left: 130px;
+}
+.doan3{
+    width: 1300px;
+    height: 250px;
+    margin-left: 120px;
+}
+.doan4{
+    text-align: center;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+button:hover{
+    border: 0px; background-color: black;color: white;
+}
+.doan5{
+    text-align: center;
+    font-size: xx-large;
+}
+.doan7{
+    text-align: center;
+}
+.xemthem{
+    width: 500px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: larger;
+    border: 1px solid rgb(239, 94, 162);
+}
+.xemthem:hover{
+    background-color: rgb(239, 94, 162);
+    color: white;
+}

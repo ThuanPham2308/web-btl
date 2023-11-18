@@ -1,0 +1,38 @@
+.all{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1300px;
+
+}
+.doan1{
+    display: flex;
+    justify-content: space-around;
+    width: 1275px;
+}
+.doan2{
+    display: flex;
+    justify-content: space-around;
+    width: 1304px;
+}
+.doan3{
+    display: flex;
+    justify-content: space-around;
+}
+.doan4 ul{
+    margin-left: -165px;
+    justify-content: space-around;
+    width: 1535px;
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+
+
+.doan7 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.doan8{
+    text-align: center;
+}

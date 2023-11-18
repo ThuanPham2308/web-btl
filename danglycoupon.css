@@ -1,0 +1,25 @@
+.all{
+    padding-left: 550px;
+    padding-right: 550px;
+}
+.all div{
+    margin-bottom: 15px;
+}
+.khung{
+    border: 1px;
+    border-color: black;
+
+}
+.border{
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid rgb(235, 235, 235);
+
+}
+button{
+    width: 410px;
+    height: 45px;
+    border-radius: 30px;
+    border: 0px;
+}

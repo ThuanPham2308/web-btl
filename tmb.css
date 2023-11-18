@@ -1,0 +1,57 @@
+.doan1{
+    margin-left: 125px;
+}
+.doan3{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: large;
+    line-height: 30px;
+    text-align:justify;
+}
+.doan4{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.doan5{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.doan6{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.doan7{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.doan7 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.doan7 li{
+    list-style-type: none;
+    width: 250px;
+}
+.doan7_1{
+    text-align: left;
+    margin-top: 50px;
+}
+.doan7_2{
+    text-align: justify;
+}
+.doan7_3{
+    text-align: right;
+    margin-top: 100px;
+}
+.doan8{
+    text-align: center;
+
+}
+.doan9 ul{
+    display: flex;
+    margin-left: 100px;
+}
+.doan9 ul li{
+    list-style-type: none;
+    justify-content: space-around;
+}

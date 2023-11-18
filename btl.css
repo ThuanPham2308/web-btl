@@ -1,0 +1,173 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.khungdau{
+    background-color: yellow;
+}
+.khunghai{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.hinhanh1{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 82, 156);
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    margin-right:100px ;
+    margin-left:100px ;
+}
+.title li{
+    position: relative;
+}
+.menu{
+    position: relative;
+    cursor: pointer;
+}
+.menu:hover .menu-dropdown{
+    display: block;
+}
+
+.menu-dropdown{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: white;
+    padding: 20px 40px 20px 30px;
+    line-height: 3;
+}
+.menu-dropdown li:hover{
+    font-size: 20px;
+    font-family: cursive;
+}
+.search{
+    background-position-y: 2px;
+    background-position-x: 10px;
+    background-image: url("./hinhanh/search-v1.png");
+    background-repeat:no-repeat;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+#slideshow {
+  overflow: hidden;
+  height: 570px;    
+  width: 1500px;
+
+}
+
+.slide-wrapper {
+display: flex;
+  width: 1500px;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 570px;
+  width: 1500px;
+}
+.newarrival{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.newarrival1 img{
+    width: 300px;
+    height: 400px;
+
+}
+.hinhtren:hover{
+    opacity: 0;
+}
+.hinhtren{
+    position: absolute;
+}
+.xemtatca{
+    color: gray;
+}
+.xemtatca:hover{
+    color: rgb(255, 82, 156);
+}
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -1500px;}
+  50% {margin-left: -1500px;}
+  60% {margin-left: -3000px;}
+  80% {margin-left: -3000px;}
+}
+.coupon{
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgb(255, 82, 156);
+    color: white;
+    width: 85px;
+    height: 32px;
+    text-align: center;
+    padding-top: 10px;
+}
+.event{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.thongtin{
+    text-align: center;
+    font-size: small;
+}
+.bubble{
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    width: 125px;
+    height: 125px;
+}
+#close{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 195px;
+    right: 15px;
+}
+.reset{
+     position: fixed;
+     right: 20px;
+     bottom: 20px;
+}
+.icon{
+    margin-top: 20px;
+}
+p{
+    font-size: 14px;
+}
+.dangky:hover{
+    color: rgb(255, 82, 156);
+}
+.dangnhap:hover{
+    color:rgb(255, 82, 156);
+}

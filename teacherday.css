@@ -1,0 +1,41 @@
+.doan2{
+    margin-left: 125px;
+}
+.doan3{
+    margin-left: 125px;
+}
+.doan4{
+    margin-left: 125px;
+}
+.doan5{
+    margin-left: 185px;
+}
+.doan7{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.doan7 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.doan7 ul li{
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid black;
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+.doan7 ul li:hover{
+    background-color: rgb(241, 104, 130);
+    color: white;
+}
+.doan8{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(241, 104, 130) ;
+}
